@@ -23,13 +23,13 @@ allprojects {
  - After adding JitPack repository, you can add **Android Lint Rules** dependency to your app level build.gradle.
 ```gradle
 dependencies {
-    implementation "com.github.bsobe:androidlintrules:1.0.1"
+    implementation 'com.github.Trendyol:android-lint-rules:1.0.1"
 }
 ```
 
 License
 --------
-    Copyright 2019 bsobe / Barış Söbe
+    Copyright 2019 Trendyol.com
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
