@@ -38,10 +38,10 @@ dependencies {
 - [ ] Prefix check for multi module projects as an Error
 
 #### IDE Default Lints
-- [ ] Spesift return type explicitly as a Warning
+- [ ] Spesify return type explicitly as a Warning
 - [ ] Line length as a Warning
-- [ ] Limit lines of method as a Warning
-- [ ] Method names length as a Warning
+- [ ] Method body line limit as a Warning
+- [ ] Method name length as a Warning
 
 License
 --------
