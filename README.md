@@ -6,7 +6,7 @@ Lint Rules for Android.
 
 Android Lint Rules includes several rules for Android platform.
 
-## Contents: ##
+# Contents: #
 * Background Vector : Detect vectors used for background
 * Hardcoded Value : Detect hardcoded values used for dimension
 
@@ -26,6 +26,22 @@ dependencies {
     implementation 'com.github.Trendyol:android-lint-rules:1.0.1"
 }
 ```
+
+# TODO
+
+#### Custom Lints
+- [ ] Vector drawables for TextView Drawable attributes as an Error
+- [ ] Use custom LifecyclerOwner with LiveData as a Warning
+- [ ] Encapsulate the LiveData which is store data on ViewModels as a Warning 
+- [ ] Hardcoded colors for support theme as an Error
+- [ ] Resource names (https://github.com/Trendyol/android-guidelines/) as a Warning 
+- [ ] Prefix check for multi module projects as an Error
+
+#### IDE Default Lints
+- [ ] Spesify return type explicitly as a Warning
+- [ ] Line length as a Warning
+- [ ] Method body line limit as a Warning
+- [ ] Method name length as a Warning
 
 License
 --------
